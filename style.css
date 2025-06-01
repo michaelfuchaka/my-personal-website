@@ -31,18 +31,13 @@ margin: 20px;
 .navbar{
   border: solid #cccccc ;
   padding: 9px; 
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   background-color: #BFBFBF;
   color: #333 ;
   margin: 0;
   width: 100%;
   max width: none;
   
-}
-#navbar a{
-  transition: all 0.3s ease;
-   position: relative;
 }
 #home {
   display:flex;
