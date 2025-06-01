@@ -21,12 +21,15 @@
        </nav>
     </header>
     <div id="container">
-    <section id="home">
+      <section id="home">
+      <img src="images/profilepic.png" alt="My photo" class="profile photo">
+       <div class="home text">
       <h1>Hello, I'm Michael Fuchaka,</h1>
-      <h2>Skilled and creative web developer</h2>
+      <h2>Skilled and creative software developer</h2>
       <p>Welcome to my personal website, 
         take a look at my projects and
          learn more about my work and journey.</p>
+         </div>
     </section>
     <section id="about">
       <h2>My Journey</h2>
@@ -41,9 +44,14 @@
     </section>
     <section id="projects">
       <h2>Projects</h2>
-      <h3>My personal website</h3>
-      <p>This is My personal website built using HTML,CSS and JavaScript</p>
-      <a href="https://michaelfuchaka.github.io/my-personal-website//" target="_blank">View Web</a>
+      <h4>My personal website</h4>
+      <p>This is My personal website built using HTML,CSS and JavaScript.</p>
+      <p id="view link">Please click the button below to check out my website</p>
+      <button type="button"
+       onclick='document.getElementById("view link").innerHTML =
+         "<a href=https://michaelfuchaka.github.io/my-personal-website/ target=\"_blank\">View Web</a>"'>Click Me </button>
+    
+
     </section>
     <section id="services">
       <h2>My Services</h2>
