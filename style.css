@@ -73,3 +73,11 @@ margin: 20px;
 #projects {
   text-align: left;
 }
+section {
+    margin: 0 auto;
+    padding: 40px 30px;
+    background-color: rgb(240, 238, 238);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(29, 27, 27, 0.1);
+}
